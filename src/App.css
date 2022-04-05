@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.container-fluid{
+  margin:0px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +25,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.search-form button {
+  border: 0;
+  padding: 0;
+  margin-left: 44px;
+  background: none;
+  z-index: 1;
+}
+:-ms-input-placeholder {  
+  text-align: center; 
+}
+.search-form input{
+  border: 0;
+  margin-left: -28px;
+    font-size: 14px;
+    color: #012970;
+    border: 1px solid rgba(1, 41, 112, 0.2);
+    padding: 6px 58px 6px;
+    border-radius: 3px;
+    transition: 0.3s;
+    width: 100%;
+}
+.form-control1{
+  text-align: right;
+  margin-left: -160px;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -moz-appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-right: 15px;
+}
 
+.format{
+  margin-left: 34px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +78,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.deal{
+  margin-left: 230px;
+}
+.btn {
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Varela Round",sans-serif;
+}
+.csc{
+  width: 100%;
+  margin-left: 142px;
+}
+.search-form1 button {
+  border: 0;
+  padding: 0;
+  margin-left: 111px;
+  background: none;
+  z-index: 1;
+}
+.bb{
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
+
+.message{
+  text-align: right;
+}
+.colorbold{
+  color:#47b8ec;
+}
+.search-padding{
+  padding-left: 42px;
+}
+.icon{
+  color: red;
 }
